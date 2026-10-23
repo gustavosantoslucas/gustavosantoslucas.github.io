@@ -5,9 +5,9 @@ import {
   SiReact, SiJavascript, SiTypescript, SiHtml5, SiCss, SiTailwindcss,
   SiTensorflow, SiScikitlearn, SiPandas, SiNumpy, SiJupyter,
   SiDocker, SiGit, SiGithub, SiGithubactions, SiLinux, SiPostman, SiVscodium,
-  SiSwagger, SiOpenai,
+  SiSwagger,
 } from 'react-icons/si';
-import { FaAws, FaBrain, FaChartBar } from 'react-icons/fa6';
+import { FaAws, FaChartBar, FaBrain } from 'react-icons/fa';
 import { stacks } from '../data/portfolioData';
 import './Stacks.css';
 
@@ -42,8 +42,8 @@ const techIcons = {
   'REST API': <SiSwagger />,
   'Random Forest': <FaBrain />,
   'Análise de Dados': <FaChartBar />,
-  'IAs generativas': <SiOpenai />,
-  'IA generativas': <SiOpenai />,
+  'IAs generativas': <FaBrain />,
+  'IA generativas': <FaBrain />,
   AWS: <FaAws />,
 };
 
