@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://gustavosantoslucas.github.io"
+  "homepage": "https://gustavosantoslucas.github.io",
+  "devDependencies": {
+    "yaml": "^2.9.1"
+  }
 }
